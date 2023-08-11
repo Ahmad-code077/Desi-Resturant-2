@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+#navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar ul {
+  padding: 0px;
+}
+#navbar ul li {
+  font-size: 1rem;
+}
+#navbar ul li a {
+  padding: 0px 6px;
+  border-radius: 16px;
+}
+
+/* home */
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2px 30px;
+  height: 370px;
+}
+
+#home p {
+  font-size: 1rem;
+}
+#home h1 {
+  font-size: 1.4rem;
+}
+#home .btn {
+  font-size: 1rem;
+  margin: 0px;
+}
+/* services */
+
+#services {
+  flex-direction: column;
+  margin: 0px;
+}
+
+#services-box h1 {
+  font-size: 1.8rem;
+  margin-top: 200px;
+}
+
+#services .box img {
+  width: 70px;
+  height: 70px;
+}
+
+#services .box {
+  padding: 4px;
+}
+
+.box p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* contact */
+#contact h1 {
+  padding-top: 100px;
+  font-size: 1.8rem;
+}
